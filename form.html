@@ -29,9 +29,29 @@
             <div class="dsmovie-card">
                <img src="https://www.themoviedb.org/t/p/original/bNBXskBHOwPSW21o7iT3N8QVg9L.jpg"
                   alt="A Viagem de Chihiro">
-               <div class="dsmovie-card-description">
+               <div class="dsmovie-form-description">
                   <h3>A Viagem de Chihiro</h3>
-                  <a class="dsmovie-btn" href="index.html">Cancelar</a>
+                  <form class="dsmovie-form">
+                     <div class="form-group dsmovie-form-group">
+                        <label for="email">Informe seu email</label>
+                        <input type="email" id="email" class="form-control">
+                     </div>
+                     <div class="form-group dsmovie-form-group">
+                        <label for="score">Informe sua avaliação</label>
+                        <select name="score" id="score" class="form-control">
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                        </select>
+                     </div>
+                     <div class="dsmovie-form-btn-container">
+                        <button class="dsmovie-btn" type="submit">Salvar</button>
+                        <a class="dsmovie-btn" href="index.html">Cancelar</a>
+                     </div>
+                  </form>
+
                </div>
             </div>
          </div>
