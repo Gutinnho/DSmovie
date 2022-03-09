@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 :root {
    --bg-gray: #717171;
    --color-primary: #4D41C0;
@@ -6,22 +7,24 @@
    --text-grey: #4A4A4A;
 }
 
-*{
+* {
    box-sizing: border-box;
    font-family: "Open Sans", sans-serif;
 }
-html, body{
+
+html, body {
    background-color: var(--bg-gray);
 }
 
-header{
+header {
    background-color: var(--color-primary);
    color: var(--white);
    height: 60px;
    display: flex;
    align-items: center;
 }
-nav{
+
+nav {
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -32,7 +35,7 @@ nav h1 {
    font-weight: 700;
 }
 
-nav a{
+nav a {
    font-size: 12px;
    font-weight: 400;
 }
@@ -42,15 +45,16 @@ a, a:hover {
    color: unset;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
    margin: 0;
 }
-.dsmovie-contact-container{
+
+.dsmovie-contact-container {
    display: flex;
    align-items: center;
 }
 
-.dsmovie-contact-container img{
+.dsmovie-contact-container img {
    margin-right: 10px;
 }
 
@@ -58,16 +62,17 @@ h1, h2, h3, h4, h5{
    width: 100%;
 }
 
-#dsmovie-card-list{
+#dsmovie-card-list {
    padding: 40px;
 }
 
-.dsmovie-card img{
+.dsmovie-card img {
    width: 100%;
    height: 100%;
    border-radius: 8px 8px 0 0;
 }
-.dsmovie-card-description{
+
+.dsmovie-card-description {
    background-color: var(--white);
    padding: 20px, 20px, 20px, 20px;
    display: flex;
@@ -78,13 +83,14 @@ h1, h2, h3, h4, h5{
    justify-content: space-between;
 }
 
-.dsmovie-card-description h3{
+.dsmovie-card-description h3 {
    font-size: 14px;
    font-weight: 600;
    margin-bottom: 25px;
    margin-top: 10px;
    text-align: center;
 }
+
 .dsmovie-btn, .dsmovie-btn:hover {
    width: 180px;
    height: 40px;
@@ -97,4 +103,9 @@ h1, h2, h3, h4, h5{
    justify-content: center;
    border-radius: 4px;
    margin-bottom: 20px;
+}
+
+.dsmovie-form-container {
+   padding: 40px 0;
+   max-width: 480px;
 }
